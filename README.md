@@ -1,4 +1,5 @@
 # Thanos
+![enter](./assets/enter.jpg)
 
 Thanos is python based website vulnerability scanner. You can use it to get report of vulnerabilities of your website.
 Also if there is bug or error etc. thanos will report you with large explanation. Try learn to use it correctly. 
@@ -15,8 +16,5 @@ python thanos.py --help # thanos succesfully installed , help for usage...
 ```
 
 ## Usage
-```python
-python thanos.py [normal,port]https://google.com
-
-[<scan mod>,<action1>,<action2>....]
+```
 ```
