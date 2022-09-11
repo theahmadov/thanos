@@ -15,5 +15,8 @@ python thanos.py --help # thanos succesfully installed , help for usage...
 ```
 
 ## Usage
-```
+```python
+python thanos.py [normal,port]https://google.com
+
+[<scan mod>,<action1>,<action2>....]
 ```
