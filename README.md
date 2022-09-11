@@ -6,13 +6,13 @@ There is all options you need to scan deeply...
 
 ## Install
 
-- [x] Linux
-'''
+- [x] **Linux**
+```
 git clone https://github.com/thesaderror/thanos
 cd thanos
 pip install -r requirements.txt
 python thanos.py --help # thanos succesfully installed , help for usage...
-'''
+```
 
 ## Usage
 '''
