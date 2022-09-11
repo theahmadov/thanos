@@ -12,7 +12,8 @@ class error:
 
 class config:
     conf_style = {
-        100 : "bold"
+        100 : "bold",
+        "debug": "red on white"
     }
     connect = "https://google.com/"
 
@@ -43,10 +44,10 @@ def internet():
     return True
 
 def check_error(url):
-    console.print("Checking internet connection...")
+    console.print("_Checking internet connection...",style=config.conf_style["debug"])
     if(internet() == False):
         console.print(print_error(101), style=config.conf_style[100])
-    console.print("Checking url adress...")
+    console.print("_Checking url adress...",style=config.conf_style["debug"])
     if(url==None):
         console.print(print_error(100), style=config.conf_style[100])
     if(check_http(url)==False):
