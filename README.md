@@ -17,7 +17,11 @@ python thanos.py --help # thanos succesfully installed , help for usage...
 
 ## Usage
 ```
-python thanos.py [normal,port]https://google.com
+Thanos 1.1
 
-[<mode>,<scan_Type1>,<scan_Type2>...]
+SCAN :
+    port : python thanos.py [deep,port]example.com
+    subdomain : python thanos.py [deep,sub]example.com
+
+[<mode>,<action1>,<action2>...]
 ```
