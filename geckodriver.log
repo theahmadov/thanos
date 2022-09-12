@@ -1,0 +1,191 @@
+1663003876336	geckodriver	INFO	Listening on 127.0.0.1:10321
+1663003879365	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10322" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofilebVHmmi"
+1663003879624	Marionette	INFO	Marionette enabled
+1663003879628	Marionette	INFO	Listening on port 10331
+WebDriver BiDi listening on ws://localhost:10322
+Read port: 10331
+1663003879747	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663003879766	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:10320","sslProxy":"127.0.0.1:10320"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofilebVHmmi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:10322/devtools/browser/fa7c3bfc-a5bf-4ddf-8a10-b6000f6a473b
+1663003887096	Marionette	INFO	Stopped listening on port 10331
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+1663003909773	geckodriver	INFO	Listening on 127.0.0.1:10365
+1663003912824	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10366" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofile29ZvHu"
+1663003913093	Marionette	INFO	Marionette enabled
+1663003913098	Marionette	INFO	Listening on port 10375
+WebDriver BiDi listening on ws://localhost:10366
+Read port: 10375
+1663003913243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663003913264	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:10364","sslProxy":"127.0.0.1:10364"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofile29ZvHu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:10366/devtools/browser/5c0c5bac-3751-4f0a-9794-f9f2864788fb
+1663004097813	Marionette	INFO	Stopped listening on port 10375
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "10413" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileWku1mS"
+1663003968277	Marionette	INFO	Marionette enabled
+1663003968280	Marionette	INFO	Listening on port 10422
+WebDriver BiDi listening on ws://localhost:10413
+Read port: 10422
+1663003968398	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663003968413	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:10411","sslProxy":"127.0.0.1:10411"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileWku1mS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:10413/devtools/browser/cb891a92-e0d3-4ed2-a083-28099420c4c1
+1663004170408	Marionette	INFO	Stopped listening on port 10422
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663004212847	geckodriver	INFO	Listening on 127.0.0.1:1081
+1663004215890	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1082" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileplK0kS"
+1663004216179	Marionette	INFO	Marionette enabled
+1663004216183	Marionette	INFO	Listening on port 1092
+WebDriver BiDi listening on ws://localhost:1082
+Read port: 1092
+1663004216334	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663004216352	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:1080","sslProxy":"127.0.0.1:1080"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileplK0kS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1082/devtools/browser/0f7940ec-36ab-4082-9875-b94b1bb1c26f
+1663004249386	geckodriver	INFO	Listening on 127.0.0.1:1163
+1663004252423	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1164" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileCzhM3u"
+1663004252681	Marionette	INFO	Marionette enabled
+1663004252685	Marionette	INFO	Listening on port 1173
+WebDriver BiDi listening on ws://localhost:1164
+Read port: 1173
+1663004252802	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663004252819	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:1162","sslProxy":"127.0.0.1:1162"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileCzhM3u\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1164/devtools/browser/b4844f76-552d-4d6e-a09e-be343dcab3b2
+1663004307406	Marionette	INFO	Stopped listening on port 1173
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663004308497	geckodriver	INFO	Listening on 127.0.0.1:1261
+1663004311551	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "1262" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileLUh6Vi"
+1663004311783	Marionette	INFO	Marionette enabled
+1663004311787	Marionette	INFO	Listening on port 1271
+WebDriver BiDi listening on ws://localhost:1262
+Read port: 1271
+1663004311973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663004311989	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:1260","sslProxy":"127.0.0.1:1260"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileLUh6Vi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1262/devtools/browser/4333b9c2-cded-463d-a6ce-d171c7d576fc
+1663004414759	Marionette	INFO	Stopped listening on port 1271
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "1352" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileAovR35"
+1663004369039	Marionette	INFO	Marionette enabled
+1663004369043	Marionette	INFO	Listening on port 1361
+WebDriver BiDi listening on ws://localhost:1352
+Read port: 1361
+1663004369239	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663004369257	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:1350","sslProxy":"127.0.0.1:1350"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileAovR35\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1352/devtools/browser/bd230418-c265-4e13-9664-f45769562fa8
+1663004413789	Marionette	INFO	Stopped listening on port 1361
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "1475" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofilexWd2j8"
+1663004405286	Marionette	INFO	Marionette enabled
+1663004405289	Marionette	INFO	Listening on port 1484
+WebDriver BiDi listening on ws://localhost:1475
+Read port: 1484
+1663004405471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663004405485	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:1473","sslProxy":"127.0.0.1:1473"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofilexWd2j8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1475/devtools/browser/535904e8-8827-4612-8bfb-99e076a79310
+1663004516852	Marionette	INFO	Stopped listening on port 1484
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "1568" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofiledNkaDE"
+1663004469485	Marionette	INFO	Marionette enabled
+1663004469491	Marionette	INFO	Listening on port 1577
+WebDriver BiDi listening on ws://localhost:1568
+Read port: 1577
+1663004469675	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663004469695	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:1566","sslProxy":"127.0.0.1:1566"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofiledNkaDE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1568/devtools/browser/7b532193-bae7-4446-87a5-77a733a5cf52
+1663004596615	Marionette	INFO	Stopped listening on port 1577
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "1698" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileX75Nmy"
+1663004592504	Marionette	INFO	Marionette enabled
+1663004592508	Marionette	INFO	Listening on port 1710
+WebDriver BiDi listening on ws://localhost:1698
+Read port: 1710
+1663004592622	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663004592639	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:1696","sslProxy":"127.0.0.1:1696"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileX75Nmy\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1698/devtools/browser/7557eacb-afbf-4352-bf35-0ca23746deeb
+1663004753621	Marionette	INFO	Stopped listening on port 1710
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "1817" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileUPglCx"
+1663004732602	Marionette	INFO	Marionette enabled
+1663004732606	Marionette	INFO	Listening on port 1826
+WebDriver BiDi listening on ws://localhost:1817
+Read port: 1826
+1663004732731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663004732747	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:1815","sslProxy":"127.0.0.1:1815"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileUPglCx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1817/devtools/browser/60883686-ed47-4304-bf0f-700589ab77af
+JavaScript error: https://github.githubassets.com/assets/wp-runtime-0141ffb11880.js, line 1: ChunkLoadError: Loading chunk app_components_primer_experimental_toggle-switch-element_ts failed.
+(error: https://github.githubassets.com/assets/chunk-app_components_primer_experimental_toggle-switch-element_ts-8d9d1aec570e.js)
+1663004882735	Marionette	INFO	Stopped listening on port 1826
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "1910" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileFSuCCW"
+1663004834163	Marionette	INFO	Marionette enabled
+1663004834166	Marionette	INFO	Listening on port 1920
+WebDriver BiDi listening on ws://localhost:1910
+Read port: 1920
+1663004834283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663004834301	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:1908","sslProxy":"127.0.0.1:1908"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileFSuCCW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:1910/devtools/browser/1ddcc08b-c19e-44b0-980c-28ee5adc938d
+1663004884693	Marionette	INFO	Stopped listening on port 1921663004885144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2013" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileijPHWv"
+1663004885385	Marionette	INFO	Marionette enabled
+1663004885389	Marionette	INFO	Listening on port 2025
+WebDriver BiDi listening on ws://localhost:2013
+Read port: 2025
+1663004885550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663004885567	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:2010","sslProxy":"127.0.0.1:2010"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileijPHWv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2013/devtools/browser/490df770-60e5-4f4c-90a0-140c126aaef9
+1663005042656	Marionette	INFO	Stopped listening on port 2025
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+remote-debugging-port" "2134" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileHKBeIc"
+1663005032801	Marionette	INFO	Marionette enabled
+1663005032804	Marionette	INFO	Listening on port 2143
+WebDriver BiDi listening on ws://localhost:2134
+Read port: 2143
+1663005032922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663005032939	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:2132","sslProxy":"127.0.0.1:2132"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileHKBeIc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2134/devtools/browser/847b1943-a40d-4a34-92df-20b6b10a4558
+1663005044380	Marionette	INFO	Stopped listening on port 2143
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663005140759	geckodriver	INFO	Listening on 127.0.0.1:2228
+1663005143804	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2229" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileKW4990"
+1663005144050	Marionette	INFO	Marionette enabled
+1663005144053	Marionette	INFO	Listening on port 2238
+WebDriver BiDi listening on ws://localhost:2229
+Read port: 2238
+1663005144166	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663005144183	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:2227","sslProxy":"127.0.0.1:2227"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileKW4990\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2229/devtools/browser/91e039e6-6056-4383-b335-92b637542ab9
+1663005163028	Marionette	INFO	Stopped listening on port 2238
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1663005211391	geckodriver	INFO	Listening on 127.0.0.1:2316
+1663005214449	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2317" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileFxeOvS"
+1663005214727	Marionette	INFO	Marionette enabled
+1663005214731	Marionette	INFO	Listening on port 2326
+WebDriver BiDi listening on ws://localhost:2317
+Read port: 2326
+1663005214854	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663005214872	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:2315","sslProxy":"127.0.0.1:2315"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofileFxeOvS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2317/devtools/browser/c1d7c443-572b-4fbf-b9d4-8e1f22b5cdb9
+1663005252765	geckodriver	INFO	Listening on 127.0.0.1:2350
+1663005255845	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2351" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofile1VY2SS"
+1663005256113	Marionette	INFO	Marionette enabled
+1663005256117	Marionette	INFO	Listening on port 2363
+WebDriver BiDi listening on ws://localhost:2351
+Read port: 2363
+1663005256247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1663005256265	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:2349","sslProxy":"127.0.0.1:2349"}
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\synta\\AppData\\Local\\Temp\\rust_mozprofile1VY2SS\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2351/devtools/browser/f1d67821-8d3a-43f6-bb78-b41ea1c75a1a

@@ -14,6 +14,7 @@ themes
 en
 img
 admin
+medya
 user
 plugins
 show

@@ -10,6 +10,7 @@ webdisk
 ns2
 cpanel
 whm
+medya
 autodiscover
 autoconfig
 m

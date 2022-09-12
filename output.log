@@ -1,0 +1,65 @@
+
+Starting 'normal' Thanos scan to 140.82.121.4 with actions : ['normal', 'save', 'rec']! Time : 2022-09-12 21:54:09.826301
+Thanos Report [Record]
+
+        Recording...
+        [
+            Webdriver : [FireFox]...
+        ]
+
+Extracted links :
+
+[1] https://github.com/
+[2] https://github.com/webgl-globe/data/data.json
+[3] https://github.githubassets.com/assets/dark-217d4f9c8e70.css
+[4] https://github.githubassets.com/assets/dashboard-ab0496eb0207.css
+[5] https://github.githubassets.com/assets/light-5178aee0ee76.css
+[6] https://github.githubassets.com/assets/primer-0e158a2f5ddd.css
+[7] https://github.githubassets.com/assets/github-e3c3328ea8d4.css
+[8] https://github.githubassets.com/assets/global-f7d41d8e8730.css
+[9] https://github.githubassets.com/assets/site-4e2e50343232.css
+[10] https://github.githubassets.com/static/fonts/github/alliance-1.woff2
+[11] https://github.githubassets.com/assets/vendors-node_modules_manuelpuyol_turbo_dist_turbo_es2017-esm_js-8af9baefab9e.js
+[12] https://github.githubassets.com/assets/wp-runtime-0141ffb11880.js
+[13] https://github.githubassets.com/assets/home-06d3899b7964.css
+[14] https://github.githubassets.com/assets/vendors-node_modules_stacktrace-parser_dist_stack-trace-parser_esm_js-node_modules_github_bro-d351f6-c1d63d230b29.js
+[15] https://github.githubassets.com/assets/vendors-node_modules_fzy_js_index_js-node_modules_github_combobox-nav_dist_index_js-node_modu-344bff-2d497eaa2bcd.js
+[16] https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_filter--1a5034-4afde803c0f4.js
+[17] https://github.githubassets.com/assets/vendors-node_modules_selector-observer_dist_index_esm_js-650337916dbd.js
+[18] https://github.githubassets.com/assets/vendors-node_modules_github_tab-container-element_dist_index_js-node_modules_github_auto-comp-d0a479-59a6ec35bd52.js
+[19] https://github.githubassets.com/assets/environment-28ac2e722441.js
+[20] https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_details-dialog-elemen-63debe-4a2f37f7419e.js
+[21] https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_catalyst_lib_index_-bd1f73-6256737c3b34.js
+[22] https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-e954e8c01c93.js
+[23] https://github.githubassets.com/assets/vendors-node_modules_primer_view-components_app_components_primer_primer_js-node_modules_gith-e7a013-85c8b5701661.js
+[24] https://github.githubassets.com/assets/vendors-node_modules_github_paste-markdown_dist_index_esm_js-node_modules_koddsson_textarea-c-586f78-31ae170ef9e1.js
+[25] https://github.githubassets.com/assets/vendors-node_modules_github_time-elements_dist_index_js-74b4ec51ce20.js
+[26] https://github.githubassets.com/assets/element-registry-c3dbda33e971.js
+[27] https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hotkey_dist_index-9f48bd-dd8913ac65b0.js
+[28] https://github.githubassets.com/assets/github-elements-0840a9cd380c.js
+[29] https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_quote-sele-385414-cb162b883437.js
+[30] https://github.githubassets.com/assets/behaviors-abdf51ccf339.js
+[31] https://github.githubassets.com/assets/app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_has-interactions_t-0091d6-25db6ca89f1c.js
+[32] https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-5872b8b4b211.js
+[33] https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-91b396bb6bb5.js
+[34] https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff533-b01316754e20.js
+[35] https://github.githubassets.com/assets/app_assets_modules_github_soft-nav_navigate_ts-7c4c5595e4ed.js
+[36] https://github.githubassets.com/assets/app_assets_modules_github_behaviors_keyboard-shortcuts-helper_ts-app_assets_modules_github_di-9b8a64-283dc3d9bdf7.js
+[37] https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-94fd67-49be4e13fea3.js
+[38] https://github.githubassets.com/assets/home-2dd6739e14f6.js
+[39] https://github.githubassets.com/assets/webgl-globe-d9a3329d3745.js
+[40] https://github.githubassets.com/assets/marketing-0c09f8657903.js
+[41] https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-06ff531-9c32262777e6.js
+[42] https://github.githubassets.com/assets/vendors-node_modules_github_webgl-globe_dist_js_main_js-8dc1957e5bb1.js
+[43] https://github.githubassets.com/assets/notifications-global-47ba35d34d1d.js
+[44] https://github.githubassets.com/assets/sessions-319092af3d33.js
+[45] https://github.githubassets.com/images/modules/site/home/enterprise-city-w-logos.jpg?width=688
+[46] https://github.githubassets.com/images/modules/site/home/repo-browser.webp
+[47] https://github.githubassets.com/images/modules/site/home/gh-mobile.png
+[48] https://github.githubassets.com/images/modules/site/home/repo-editor-glow.svg
+[49] https://avatars.githubusercontent.com/jasonetco?s=64&v=4
+[50] https://github.githubassets.com/images/modules/site/home/actions-autocomplete-poster.png
+[51] https://github.githubassets.com/images/modules/site/home/astro-mona.webp
+[52] https://github.githubassets.com/images/modules/site/eyebrow-banner-icon-unicat22.png
+[53] https://github.githubassets.com/images/modules/site/home/hero-glow.svg
+[54] https://github.githubassets.com/assets/chunk-app_components_primer_experimental_toggle-switch-element_ts-8d9d1aec570e.js

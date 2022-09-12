@@ -51,9 +51,9 @@ def thanos_main(code: str):
 
                 check_report = check_error(url)
                 out += action.run(url,thanos,True)
-                with open("output.txt", "w") as output:
+                with open("output.log", "w") as output:
                     output.write(out)
-                console.print(f"\nThanos scan report of {ip} saved to output.txt!",style="red")
+                console.print(f"\nThanos scan report of {ip} saved to output.log!",style="red")
         else:
             url = thanos_split(code,"url")
 

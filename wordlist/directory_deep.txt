@@ -11,6 +11,7 @@ Thumbs.db
 README
 templates
 langs
+medya
 editor_plugin.js
 config
 GNUmakefile
