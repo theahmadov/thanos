@@ -24,5 +24,5 @@ SCAN :
     subdomain : python3 thanos.py [deep,sub]example.com
     directory : python3 thanos.py [deep,dir]example.com
 
-Full : python3 thanos.py [thanos]example.com
+Full : python3 thanos.py [x]example.com
 ```
