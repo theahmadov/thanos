@@ -16,19 +16,19 @@ curl  -s https://raw.githubusercontent.com/thesaderror/thanos/main/install_debia
 Thanos 1.3
 
 -SCAN :
-    -port : python3 thanos.py [normal,port]example.com
+    -port : python3 thanos.py [normal,port]https://example.com
     |
     |__ Description : Port scanning
     
-    -subdomain : python3 thanos.py [normal,sub]example.com
+    -subdomain : python3 thanos.py [normal,sub]https://example.com
     |
     |__ Description : Find subdomains of website
     
-    -directory : python3 thanos.py [normal,dir]example.com
+    -directory : python3 thanos.py [normal,dir]https://example.com
     |
     |__ Description : Get all directories of website
     
-    -record : python3 thanos.py [normal,record]example.com
+    -record : python3 thanos.py [normal,record]https://example.com
     |
     |__ Description : Record website and extract hidden links
 
