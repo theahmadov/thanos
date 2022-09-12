@@ -1,7 +1,7 @@
 # Thanos
 ![plot](assets/enter.jpg)
 
-Thanos is cli based website vulnerability scanner. You can use it to get report of vulnerabilities of your website.
+Thanos is python based website vulnerability scanner. You can use it to get report of vulnerabilities of your website.
 Also if there is bug or error etc. thanos will report you with large explanation. Try learn to use it correctly. 
 There is all options you need to scan deeply...
 
@@ -20,8 +20,9 @@ python thanos.py --help # thanos succesfully installed , help for usage...
 Thanos 1.1
 
 SCAN :
-    port : python thanos.py [deep,port]example.com
-    subdomain : python thanos.py [deep,sub]example.com
+    port : python3 thanos.py [deep,port]example.com
+    subdomain : python3 thanos.py [deep,sub]example.com
+    directory : python3 thanos.py [deep,dir]example.com
 
-[<mode>,<action1>,<action2>...]
+Full : python3 thanos.py [thanos]example.com
 ```
