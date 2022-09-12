@@ -19,10 +19,13 @@ python3 thanos.py thanos # thanos succesfully installed , help for usage...
 ```
 Thanos 1.1
 
-SCAN :
-    port : python3 thanos.py [deep,port]example.com
-    subdomain : python3 thanos.py [deep,sub]example.com
-    directory : python3 thanos.py [deep,dir]example.com
+-SCAN :
+    port : python3 thanos.py [normal,port]example.com
+    subdomain : python3 thanos.py [normal,sub]example.com
+    directory : python3 thanos.py [normal,dir]example.com
+
+-SAVE :
+    save output : python3 thanos.py [normal,port,dir,sub]example.com
 
 Update : python3 thanos.py update
 Full : python3 thanos.py [x]example.com
