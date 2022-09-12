@@ -4,9 +4,14 @@ from rich.theme import Theme
 from colorama import Fore
 console = Console()
 
+def version():
+    with open("./version.txt","r") as f:
+        version = f.read()
+    return version
+
 class config:
     ferror = "Unknown Error Occured while trying to run help command. Please try again later."
-    version = 1.1
+    version = version()
     help = f"""
 Thanos {version}
 
@@ -32,4 +37,4 @@ def load_help():
 
 
 def help():
-    print(load_help()) #markdown.code
+    console.print(load_help(),style="markdown.code") #markdown.code
