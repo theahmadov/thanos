@@ -20,6 +20,7 @@ SCAN :
     subdomain : python3 thanos.py [deep,sub]example.com
     directory : python3 thanos.py [deep,dir]example.com
 
+Update : python3 thanos.py update
 Full : python3 thanos.py [x]example.com
 """
 def check(code):
