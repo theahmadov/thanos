@@ -33,7 +33,14 @@ def check_http(url):
             return False 
         return True
     else:
-        return False
+        try:
+            connect = requests.get("https://"+url)
+        except:
+            try:
+                connect = requests.get("http://"+url)
+            except:
+                return False
+            return True
 
 
 def internet():

@@ -8,8 +8,11 @@ def clear_http(url):
         clear = url.split('http://')
         return clear[1]
     else:
-        clear = url.split('https://')
-        return clear[1]
+        try:
+            clear = url.split('https://')
+            return clear[1]
+        except:
+            return url
 
 
 def run(url,selection):
@@ -22,7 +25,11 @@ def run(url,selection):
             socket.setdefaulttimeout(1)
             check = s.connect_ex((ip,port))
             if(check==0):
-                version = socket.getservbyport(port, "tcp")
+                version = None
+                try:
+                    version = socket.getservbyport(port, "tcp")
+                except:
+                    pass
                 print(f"\t{port}\topen\t{version}")
             s.close()
     else:
@@ -31,6 +38,10 @@ def run(url,selection):
             socket.setdefaulttimeout(1)
             check = s.connect_ex((ip,port))
             if(check==0):
-                version = socket.getservbyport(port, "tcp")
+                version = None
+                try:
+                    version = socket.getservbyport(port, "tcp")
+                except:
+                    pass
                 print(f"\t{port}\topen\t{version}")
             s.close()
