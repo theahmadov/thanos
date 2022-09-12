@@ -27,10 +27,12 @@ class conf:
 
 
 def thanos_main(code: str):
-    thanos = thanos_split(code,"actions")
     if(code == "update" or code == "upgrade"):
             update.run()
+    elif(code=="thanos" or code == "help"):
+        help.help()
     else:
+        thanos = thanos_split(code,"actions")
         if(action.search("save",thanos)==True):
             if(action.search("normal",thanos)==True):
                 url = thanos_split(code,"url")
