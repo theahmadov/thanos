@@ -2,6 +2,8 @@ from rich.console import Console
 from rich.style import Style
 from rich.theme import Theme
 from colorama import Fore
+import os 
+
 console = Console()
 
 def version():
@@ -37,6 +39,8 @@ Thanos {version}
 
 Update : python3 thanos.py update
 Full : python3 thanos.py [x]example.com
+
+Thanos directory : {os.getcwd()}
 """
 def check(code):
     if((code == "help") or (code == "thanos")):
