@@ -15,34 +15,72 @@ def clear_http(url):
             return url
 
 
-def run(url,mode):
-    ip = socket.gethostbyname(clear_http(url))
-    ports = [20,21,22,23,53,25,40,44,69,80,139,137,443,444,445,4444,8080, 8443]
-    console.print("\nThanos Report [Port]\n",style="blue on white")
-    console.print("\tPort\tAction\tService")
-    if mode == "deep":
-        for port in range(0,65535):
-            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            socket.setdefaulttimeout(1)
-            check = s.connect_ex((ip,port))
-            if(check==0):
-                version = None
-                try:
-                    version = socket.getservbyport(port, "tcp")
-                except:
-                    pass
-                console.print(f"\t{port}\topen\t{version}")
-            s.close()
+def run(url,mode,save):
+    if(save==False):
+        ip = socket.gethostbyname(clear_http(url))
+        ports = [20,21,22,23,53,25,40,44,69,80,139,137,443,444,445,4444,8080, 8443]
+        console.print("\nThanos Report [Port]\n",style="blue on white")
+        console.print("\tPort\tAction\tService")
+        if mode == "deep":
+            for port in range(0,65535):
+                s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                socket.setdefaulttimeout(1)
+                check = s.connect_ex((ip,port))
+                if(check==0):
+                    version = None
+                    try:
+                        version = socket.getservbyport(port, "tcp")
+                    except:
+                        pass
+                    console.print(f"\t{port}\topen\t{version}")
+                s.close()
+        else:
+            for port in ports:
+                s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                socket.setdefaulttimeout(1)
+                check = s.connect_ex((ip,port))
+                if(check==0):
+                    version = None
+                    try:
+                        version = socket.getservbyport(port, "tcp")
+                    except:
+                        pass
+                    console.print(f"\t{port}\topen\t{version}")
+                s.close()
     else:
-        for port in ports:
-            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            socket.setdefaulttimeout(1)
-            check = s.connect_ex((ip,port))
-            if(check==0):
-                version = None
-                try:
-                    version = socket.getservbyport(port, "tcp")
-                except:
-                    pass
-                console.print(f"\t{port}\topen\t{version}")
-            s.close()
+        console.print("\nThanos Report [Port]\n",style="blue on white")
+        console.print("\tPort\tAction\tService")
+        output = ""
+        ip = socket.gethostbyname(clear_http(url))
+        ports = [20,21,22,23,53,25,40,44,69,80,139,137,443,444,445,4444,8080, 8443]
+        output += "\nThanos Report [Port]\n"
+        output += "\n\tPort\tAction\tService"
+        if mode == "deep":
+            for port in range(0,65535):
+                s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                socket.setdefaulttimeout(1)
+                check = s.connect_ex((ip,port))
+                if(check==0):
+                    version = None
+                    try:
+                        version = socket.getservbyport(port, "tcp")
+                    except:
+                        pass
+                    output += f"\n\t{port}\topen\t{version}"
+                    console.print(f"\t{port}\topen\t{version}")
+                s.close()
+        else:
+            for port in ports:
+                s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                socket.setdefaulttimeout(1)
+                check = s.connect_ex((ip,port))
+                if(check==0):
+                    version = None
+                    try:
+                        version = socket.getservbyport(port, "tcp")
+                    except:
+                        pass
+                    output += f"\n\t{port}\topen\t{version}"
+                    console.print(f"\t{port}\topen\t{version}")
+                s.close()
+            return output

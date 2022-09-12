@@ -19,27 +19,57 @@ def clear_http(url):
         except:
             return url
 
-def run(url,mode):
-    console.print("\nThanos Report [Subdomain]\n",style="blue on white")
-    http = ishttp.run(clear_http(url))
-    if mode=="deep":
-        deep = []
-        with open(wordlist.deep,"r") as f:
-            deep = f.read().splitlines()
-        for sub in deep:
-            try:
-                connect = urllib.request.urlopen(http+sub+"."+clear_http(url))
-                print(http+sub+"."+clear_http(url))
-            except:
-                pass
-        
-    elif mode=="normal":
-        deep = []
-        with open(wordlist.normal,"r") as f:
-            deep = f.read().splitlines()
-        for sub in deep:
-            try:
-                connect = urllib.request.urlopen(http+sub+"."+clear_http(url))
-                console.print(f"({sub}) {http}{sub}.{clear_http(url)}")
-            except:
-                pass
+def run(url,mode,save):
+    if save==False:
+        console.print("\nThanos Report [Subdomain]\n",style="blue on white")
+        http = ishttp.run(clear_http(url))
+        if mode=="deep":
+            deep = []
+            with open(wordlist.deep,"r") as f:
+                deep = f.read().splitlines()
+            for sub in deep:
+                try:
+                    connect = urllib.request.urlopen(http+sub+"."+clear_http(url))
+                    console.print(f"({sub}) {http}{sub}.{clear_http(url)}")
+                except:
+                    pass
+            
+        elif mode=="normal":
+            deep = []
+            with open(wordlist.normal,"r") as f:
+                deep = f.read().splitlines()
+            for sub in deep:
+                try:
+                    connect = urllib.request.urlopen(http+sub+"."+clear_http(url))
+                    console.print(f"({sub}) {http}{sub}.{clear_http(url)}")
+                except:
+                    pass
+    else:
+        console.print("\nThanos Report [Subdomain]\n",style="blue on white")
+        output = ""
+        output += "\nThanos Report [Subdomain]\n"
+        http = ishttp.run(clear_http(url))
+        if mode=="deep":
+            deep = []
+            with open(wordlist.deep,"r") as f:
+                deep = f.read().splitlines()
+            for sub in deep:
+                try:
+                    connect = urllib.request.urlopen(http+sub+"."+clear_http(url))
+                    output += f"\n({sub}) {http}{sub}.{clear_http(url)}"
+                    console.print(f"({sub}) {http}{sub}.{clear_http(url)}")
+                except:
+                    pass
+            
+        elif mode=="normal":
+            deep = []
+            with open(wordlist.normal,"r") as f:
+                deep = f.read().splitlines()
+            for sub in deep:
+                try:
+                    connect = urllib.request.urlopen(http+sub+"."+clear_http(url))
+                    output += f"\n({sub}) {http}{sub}.{clear_http(url)}"
+                    console.print(f"({sub}) {http}{sub}.{clear_http(url)}")
+                except:
+                    pass
+        return output

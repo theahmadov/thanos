@@ -32,7 +32,7 @@ def run():
         task = progress.add_task("[red]Downloading...", total=1000)
 
         while not progress.finished:
-            progress.update(task, advance=1)
+            progress.update(task, advance=4)
             time.sleep(0.01)
     console.print(f"\nThanos Already Updated! Current Version : {version()}",style="markdown.link")
     os.system("python3 thanos.py thanos")

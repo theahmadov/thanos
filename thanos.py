@@ -27,26 +27,45 @@ class conf:
 
 
 def thanos_main(code: str):
-    
+    thanos = thanos_split(code,"actions")
     if(code == "update" or code == "upgrade"):
             update.run()
-    elif(help.check(code)==False):
-        url = thanos_split(code,"url")
-        thanos = thanos_split(code,"actions")
-
-        ip = socket.gethostbyname(clear_http(url))
-        if(action.search("deep",thanos)==True):
-            console.print(f"Starting 'deep' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}")
-        elif(action.search("normal",thanos)==True):
-            console.print(f"Starting 'normal' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}")
-        else:
-            console.print(f"Starting 'full' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}")
-
-
-        check_report = check_error(url)
-        action.run(url,thanos)
     else:
-        help.help()
+        if(action.search("save",thanos)==True):
+            if(action.search("normal",thanos)==True):
+                url = thanos_split(code,"url")
+                out = ""
+                ip = socket.gethostbyname(clear_http(url))
+                if(action.search("deep",thanos)==True):
+                    console.print(f"Starting 'deep' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}")
+                    out += f"\nStarting 'deep' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}"
+                elif(action.search("normal",thanos)==True):
+                    console.print(f"Starting 'normal' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}")
+                    out += f"\nStarting 'normal' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}"
+                else:
+                    console.print(f"Starting 'full' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}")
+
+                    out += f"\nStarting 'full' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}"
+
+                check_report = check_error(url)
+                out += action.run(url,thanos,True)
+                with open("output.txt", "w") as output:
+                    output.write(out)
+                console.print(f"\nThanos scan report of {ip} saved to output.txt!",style="red")
+        else:
+            url = thanos_split(code,"url")
+
+            ip = socket.gethostbyname(clear_http(url))
+            if(action.search("deep",thanos)==True):
+                console.print(f"Starting 'deep' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}")
+            elif(action.search("normal",thanos)==True):
+                console.print(f"Starting 'normal' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}")
+            else:
+                console.print(f"Starting 'full' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}")
+
+
+            check_report = check_error(url)
+            action.run(url,thanos,False)
 
 
 if __name__ == "__main__":
