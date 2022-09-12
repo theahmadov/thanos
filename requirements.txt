@@ -3,3 +3,5 @@ requests
 datetime
 sockets
 typer
+selenium
+selenium-wire
