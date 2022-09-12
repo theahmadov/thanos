@@ -10,9 +10,12 @@ class config:
     help = f"""
 Thanos {version}
 
-SCAN : 
-    port : python thanos.py [deep,port]example.com
-    subdomain : python thanos.py [deep,sub]example.com
+SCAN :
+    port : python3 thanos.py [deep,port]example.com
+    subdomain : python3 thanos.py [deep,sub]example.com
+    directory : python3 thanos.py [deep,dir]example.com
+
+Full : python3 thanos.py [x]example.com
 """
 def check(code):
     if((code == "help") or (code == "thanos")):
