@@ -11,8 +11,8 @@ There is all options you need to scan deeply...
 ```
 git clone https://github.com/thesaderror/thanos
 cd thanos
-pip3 install -r requirements.txt
-python3 thanos.py thanos # thanos succesfully installed , help for usage...
+pip install -r requirements.txt
+python thanos.py --help # thanos succesfully installed , help for usage...
 ```
 
 ## Usage
@@ -24,5 +24,6 @@ SCAN :
     subdomain : python3 thanos.py [deep,sub]example.com
     directory : python3 thanos.py [deep,dir]example.com
 
+Update : python3 thanos.py update
 Full : python3 thanos.py [x]example.com
 ```
