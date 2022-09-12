@@ -6,7 +6,18 @@ There is all options you need to scan deeply...**
 
 ## Install
 
-- [x] Debian [Kali,Parrot,Ubuntu,Mint,KDE]
+- [x] **Debian [Kali,Parrot,Ubuntu,Mint,KDE]**
+
+#### Option 1
+```bash
+sudo apt upgrade
+git clone https://github.com/thesaderror/thanos
+cd thanos
+pip3 install -r requirements.txt
+sudo pip3 install -r requirements.txt
+sudo python3 thanos.py thanos
+```
+#### Option 2
 ```
 curl  -s https://raw.githubusercontent.com/thesaderror/thanos/main/install_debian.sh | bash
 ```
