@@ -1,5 +1,3 @@
-##Thanos
-
 ```
 [x] Port Scan _ Versions
 [ ] SQL - XSS Scan 
