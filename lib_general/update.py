@@ -34,5 +34,5 @@ def run():
         while not progress.finished:
             progress.update(task, advance=1)
             time.sleep(0.01)
-    console.print(f"\nThanos Already Updated! Current Version : {version()}",style="markdown.code")
+    console.print(f"\nThanos Already Updated! Current Version : {version()}",style="markdown.link")
     os.system("python3 thanos.py thanos")
