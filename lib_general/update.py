@@ -2,8 +2,9 @@ import os
 from rich.console import Console
 from rich.style import Style
 import requests 
-import time 
-
+import time
+from rich.progress import track
+from rich.progress import Progress
 
 console = Console()
 
@@ -27,8 +28,11 @@ def run():
     os.system("git clone https://github.com/thesaderror/thanos")
     os.system("pip3 install -r requirements.txt")
     os.system("clear")
-    for i in range(0,45):
-        console.print(conf.bar[1],style="logging.level.critical",end='')
-        time.sleep(0.1)
+    with Progress() as progress:
+        task = progress.add_task("[red]Downloading...", total=1000)
+
+        while not progress.finished:
+            progress.update(task, advance=1)
+            time.sleep(0.01)
     console.print(f"\nThanos Already Updated! Current Version : {version()}",style="markdown.code")
     os.system("python3 thanos.py thanos")
