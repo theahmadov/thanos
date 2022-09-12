@@ -6,12 +6,9 @@ There is all options you need to scan deeply...**
 
 ## Install
 
-- [x] Linux
+- [x] Debian [Kali,Parrot,Ubuntu,Mint,KDE]
 ```
-git clone https://github.com/thesaderror/thanos
-cd thanos
-pip3 install -r requirements.txt
-python3 thanos.py thanos # thanos succesfully installed , help for usage...
+curl  -s https://raw.githubusercontent.com/thesaderror/thanos/main/install_debian.sh | bash
 ```
 
 ## Usage
