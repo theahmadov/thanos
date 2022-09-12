@@ -18,7 +18,7 @@ def clear_http(url):
 def run(url,mode):
     ip = socket.gethostbyname(clear_http(url))
     ports = [20,21,22,23,53,25,40,44,69,80,139,137,443,444,445,4444,8080, 8443]
-    console.print("\nThanos Report [Port]",style="blue on white")
+    console.print("\nThanos Report [Port]\n",style="blue on white")
     console.print("\tPort\tAction\tService")
     if mode == "deep":
         for port in range(0,65535):

@@ -26,6 +26,7 @@ class conf:
 
 
 def thanos_main(code: str):
+    
     if(help.check(code)==False):
         url = thanos_split(code,"url")
         thanos = thanos_split(code,"actions")
@@ -33,8 +34,11 @@ def thanos_main(code: str):
         ip = socket.gethostbyname(clear_http(url))
         if(action.search("deep",thanos)==True):
             console.print(f"Starting 'deep' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}")
-        else:
+        elif(action.search("normal",thanos)==True):
             console.print(f"Starting 'normal' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}")
+        else:
+            console.print(f"Starting 'full' Thanos scan to {ip} with actions : {thanos}! Time : {datetime.now()}")
+
 
         check_report = check_error(url)
         action.run(url,thanos)

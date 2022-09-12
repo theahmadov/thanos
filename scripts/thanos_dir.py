@@ -4,9 +4,10 @@ from rich.style import StyleStack
 from lib_general import ishttp
 
 console = Console()
+
 class wordlist:
-    deep = "./wordlist/subdomain_deep.txt"
-    normal = "./wordlist/subdomain_normal.txt"
+    deep = "./wordlist/directory_deep.txt"
+    normal = "./wordlist/directory_normal.txt"
 
 def clear_http(url):
     if(url.startswith('http://')):
@@ -20,26 +21,26 @@ def clear_http(url):
             return url
 
 def run(url,mode):
-    console.print("\nThanos Report [Subdomain]\n",style="blue on white")
+    console.print("\nThanos Report [Directory]\n",style="blue on white")
     http = ishttp.run(clear_http(url))
     if mode=="deep":
         deep = []
         with open(wordlist.deep,"r") as f:
             deep = f.read().splitlines()
-        for sub in deep:
+        for dr in deep:
             try:
-                connect = urllib.request.urlopen(http+sub+"."+clear_http(url))
-                print(http+sub+"."+clear_http(url))
+                connect = urllib.request.urlopen(http+clear_http(url)+"/"+dr)
+                console.print(f"({dr}) {http}{clear_http(url)}/{dr}")
             except:
                 pass
         
     elif mode=="normal":
-        deep = []
+        normal = []
         with open(wordlist.normal,"r") as f:
-            deep = f.read().splitlines()
-        for sub in deep:
+            normal = f.read().splitlines()
+        for dr in normal:
             try:
-                connect = urllib.request.urlopen(http+sub+"."+clear_http(url))
-                console.print(f"({sub}) {http}{sub}.{clear_http(url)}")
+                connect = urllib.request.urlopen(http+clear_http(url)+"/"+dr)
+                console.print(f"({dr}) {http}{clear_http(url)}/{dr}")
             except:
                 pass
