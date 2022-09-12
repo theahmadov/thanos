@@ -7,6 +7,7 @@ from lib_general.thanos_split import *
 from lib_error.check import check_error
 from lib_general import action
 from lib_general import help
+from lib_general import update
 
 console = Console()
 
@@ -27,7 +28,9 @@ class conf:
 
 def thanos_main(code: str):
     
-    if(help.check(code)==False):
+    if(code == "update" or code == "upgrade"):
+            update.run()
+    elif(help.check(code)==False):
         url = thanos_split(code,"url")
         thanos = thanos_split(code,"actions")
 
