@@ -11,11 +11,12 @@ There is all options you need to scan deeply...
 ```
 sudo apt update
 sudo apt-get install python3-setuptools
+sudo apt install python3-pip
 
 git clone https://github.com/thesaderror/thanos
 cd thanos
-pip install -r requirements.txt
-python thanos.py thanos # thanos succesfully installed , help for usage...
+pip3 install -r requirements.txt
+python3 thanos.py thanos # thanos succesfully installed , help for usage...
 ```
 
 ## Usage
