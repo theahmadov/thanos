@@ -9,6 +9,9 @@ There is all options you need to scan deeply...
 
 - [x] Linux
 ```
+sudo apt update
+sudo apt-get install python3-setuptools
+
 git clone https://github.com/thesaderror/thanos
 cd thanos
 pip install -r requirements.txt
