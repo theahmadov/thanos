@@ -24,6 +24,7 @@ def run(url,thanos,save):
             thanos_port.run(url,"normal",False)
             thanos_sub.run(url,"normal",False)
             thanos_dir.run(url,"normal",False)
+            thanos_rec.run(url,False)
 
         else:
                 ###############################
