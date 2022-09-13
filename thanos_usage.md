@@ -1,6 +1,6 @@
 # $${\color{red}Thanos}$$
-- [Thanos - Scan](#thanos---scan)
-- [Thanos - Installation](#thanos---installation)
+- ### [Thanos - Scan](#thanos---scan)
+- ### [Thanos - Installation](#thanos---installation)
 
 ## Thanos - Scan
 <pre>
