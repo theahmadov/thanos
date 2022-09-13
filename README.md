@@ -58,7 +58,7 @@ Full : python3 thanos.py [x]example.com
 ## Example
 
 #### Port Scan
-```
+```bash
 python3 thanos.py [normal,port]https://pakkan.com.tr
 ```
 ![port scan](./assets/port.png)
