@@ -1,4 +1,4 @@
-# $${\color{red}Thanos}$$ ![](https://visitor-badge.glitch.me/badge?page_id=thesaderror.thesaderror.thanos)
+# Thanos ![](https://visitor-badge.glitch.me/badge?page_id=thesaderror.thesaderror.thanos)
 ![GitHub contributors](https://img.shields.io/github/contributors/thesaderror/thanos)
 [![GitHub issues](https://img.shields.io/github/issues/thesaderror/thanos)](https://github.com/thesaderror/thanos/issues)
 [![GitHub stars](https://img.shields.io/github/stars/thesaderror/thanos)](https://github.com/thesaderror/thanos/stargazers)
