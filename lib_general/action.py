@@ -52,10 +52,10 @@ def run(url,thanos,save):
         ###############################
         output = ""
         if(thanos[0]=="x" or thanos[0]=="full"):
-            output+=thanos_port.run(url,"normal",False)
-            output+=thanos_sub.run(url,"normal",False)
-            output+=thanos_dir.run(url,"normal",False)
-            output+=thanos_rec.run(url,False)
+            output+=thanos_port.run(url,"normal",True)
+            output+=thanos_sub.run(url,"normal",True)
+            output+=thanos_dir.run(url,"normal",True)
+            output+=thanos_rec.run(url,True)
 
         else:
             

@@ -71,47 +71,48 @@ def run(url,save):
                     num+=1
             return output
     else:
-        if(save==False):
-            console.print("\nThanos Report [Record]",style="blue on white")
-            time.sleep(1)
-            console.print("""
-            Recording...
-            [
-                Webdriver : [FireFox]...
-            ]""",style="red")
-            driver = webdriver.Firefox()
-            driver.get(url)
-            free_tld = clear_tld(clear_http(url))
-            console.print(f"\nExtracted links :\n",style="blue on white")
-            num=1
-            for request in driver.requests:
-                if free_tld in request.url:
-                    console.print(f"[{num}] {request.url}",style="blue on yellow")
-                    num+=1
+        console.print("[x] Your operating system does not support Thanos record module! Please wait updates or try another commands... [python thanos.py thanos]",style="red")
+        # if(save==False):
+        #     console.print("\nThanos Report [Record]",style="blue on white")
+        #     time.sleep(1)
+        #     console.print("""
+        #     Recording...
+        #     [
+        #         Webdriver : [FireFox]...
+        #     ]""",style="red")
+        #     driver = webdriver.Firefox()
+        #     driver.get(url)
+        #     free_tld = clear_tld(clear_http(url))
+        #     console.print(f"\nExtracted links :\n",style="blue on white")
+        #     num=1
+        #     for request in driver.requests:
+        #         if free_tld in request.url:
+        #             console.print(f"[{num}] {request.url}",style="blue on yellow")
+        #             num+=1
 
-        else:
-            console.print("\nThanos Report [Record]",style="blue on white")
-            output += "\nThanos Report [Record]"
-            time.sleep(1)
-            console.print("""
-            Recording...
-            [
-                Webdriver : [FireFox]...
-            ]""",style="red")
-            output += """\n
-            Recording...
-            [
-                Webdriver : [FireFox]...
-            ]\n"""
-            driver = webdriver.Firefox()
-            driver.get(url)
-            free_tld = clear_tld(clear_http(url))
-            console.print(f"\nExtracted links :\n",style="blue on white")
-            output += f"\nExtracted links :\n"
-            num = 1
-            for request in driver.requests:
-                if free_tld in request.url:
-                    console.print(f"[{num}] {request.url}",style="blue on yellow")
-                    output+=f"\n[{num}] {str(request.url)}"
-                    num+=1
-            return output
+        # else:
+        #     console.print("\nThanos Report [Record]",style="blue on white")
+        #     output += "\nThanos Report [Record]"
+        #     time.sleep(1)
+        #     console.print("""
+        #     Recording...
+        #     [
+        #         Webdriver : [FireFox]...
+        #     ]""",style="red")
+        #     output += """\n
+        #     Recording...
+        #     [
+        #         Webdriver : [FireFox]...
+        #     ]\n"""
+        #     driver = webdriver.Firefox()
+        #     driver.get(url)
+        #     free_tld = clear_tld(clear_http(url))
+        #     console.print(f"\nExtracted links :\n",style="blue on white")
+        #     output += f"\nExtracted links :\n"
+        #     num = 1
+        #     for request in driver.requests:
+        #         if free_tld in request.url:
+        #             console.print(f"[{num}] {request.url}",style="blue on yellow")
+        #             output+=f"\n[{num}] {str(request.url)}"
+        #             num+=1
+        #     return output

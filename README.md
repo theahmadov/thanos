@@ -29,19 +29,19 @@ Thanos 1.3
 -SCAN :
     -port : python3 thanos.py [normal,port]https://example.com
     |
-    |__ Description : Port scanning
+    |__ Description : Port scanning -[Windows,Linux,Mac]
     
     -subdomain : python3 thanos.py [normal,sub]https://example.com
     |
-    |__ Description : Find subdomains of website
+    |__ Description : Find subdomains of website -[Windows,Linux,Mac]
     
     -directory : python3 thanos.py [normal,dir]https://example.com
     |
-    |__ Description : Get all directories of website
+    |__ Description : Get all directories of website -[Windows,Linux,Mac]
     
     -record : python3 thanos.py [normal,record]https://example.com
     |
-    |__ Description : Record website and extract hidden links
+    |__ Description : Record website and extract hidden links -[Windows]
 
 -SAVE :
     save output : python3 thanos.py [normal,port,dir,sub]example.com

@@ -58,3 +58,4 @@ def load_help():
 
 def help():
     console.print(load_help(),style="markdown.code") #markdown.code
+    
