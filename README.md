@@ -52,6 +52,6 @@ Full : python3 thanos.py [x]example.com
 
 
 # Copright
-<h5 (c) Thanos developed and created by Thesaderror. </h5> 
+#### (c) Thanos developed and created by Thesaderror.
 
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=thesaderror&show_icons=true&include_all_commits=true&theme=black-white&count_private=true" alt="github stats">
