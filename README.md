@@ -5,9 +5,9 @@
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/thesaderror/thanos)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/thesaderror/thanos)
 
-**Thanos is python based website vulnerability scanner. You can use it to get report of vulnerabilities of your website.
+**Thanos is python based website vulnerability scanner. You can use it to get report of vulnerabilities of any website.
 Also if there is bug or error etc. thanos will report you with large explanation. Try learn to use it correctly. 
-There is all options you need to scan deeply...**
+And also dont forget to star and fork project to help Thanos increasing. There is all options you need to scan deeply...**
 
 ## Install
 
