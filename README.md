@@ -55,6 +55,13 @@ Update : python3 thanos.py update
 Full : python3 thanos.py [x]example.com
 ```
 
+## Example
+
+#### Port Scan
+```
+python3 thanos.py [normal,port]https://pakkan.com.tr
+```
+![port scan](./assets/port.png)
 
 # Copright
 #### (c) Thanos developed and created by Thesaderror.
