@@ -13,7 +13,7 @@ There is all options you need to scan deeply...**
 
 - [x] **Debian [Kali,Parrot,Ubuntu,Mint,KDE]**
 
-#### Option 1
+#### Option
 ```bash
 sudo apt upgrade
 git clone https://github.com/thesaderror/thanos
