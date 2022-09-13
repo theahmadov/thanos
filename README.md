@@ -64,6 +64,4 @@ python3 thanos.py [normal,port]https://pakkan.com.tr
 ![port scan](./assets/port.png)
 
 # Copright
-#### (c) Thanos developed and created by Thesaderror.
-
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=thesaderror&show_icons=true&include_all_commits=true&theme=black-white&count_private=true" alt="github stats">
+### <p  align="center">(c) Thanos developed and created by Thesaderror.</p>
