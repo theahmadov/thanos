@@ -16,7 +16,7 @@ And also dont forget to star and fork project to help Thanos increasing. There i
 #### Option
 ```bash
 sudo apt upgrade
-git clone https://github.com/thesaderror/thanos
+git clone https://github.com/redc86/thanos
 cd thanos
 pip3 install -r requirements.txt
 sudo pip3 install -r requirements.txt
@@ -24,7 +24,7 @@ sudo python3 thanos.py thanos
 ```
 #### Option 2
 ```
-curl  -s https://raw.githubusercontent.com/thesaderror/thanos/main/install_debian.sh | bash
+curl  -s https://raw.githubusercontent.com/redc86/thanos/main/install_debian.sh | bash
 ```
 
 ## Usage
@@ -64,4 +64,4 @@ python3 thanos.py [normal,port]https://pakkan.com.tr
 ![port scan](./assets/port.png)
 
 # Copright
-### (c) Thanos developed and created by Thesaderror.
+### (c) Thanos developed and created by redc86.
