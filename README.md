@@ -1,9 +1,9 @@
-# Thanos ![](https://visitor-badge.glitch.me/badge?page_id=thesaderror.thesaderror.thanos)
-![GitHub contributors](https://img.shields.io/github/contributors/thesaderror/thanos)
-[![GitHub issues](https://img.shields.io/github/issues/thesaderror/thanos)](https://github.com/thesaderror/thanos/issues)
-[![GitHub stars](https://img.shields.io/github/stars/thesaderror/thanos)](https://github.com/thesaderror/thanos/stargazers)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/thesaderror/thanos)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/thesaderror/thanos)
+# Thanos ![](https://visitor-badge.glitch.me/badge?page_id=theahmadov.theahmadov.thanos)
+![GitHub contributors](https://img.shields.io/github/contributors/theahmadov/thanos)
+[![GitHub issues](https://img.shields.io/github/issues/theahmadov/thanos)](https://github.com/theahmadov/thanos/issues)
+[![GitHub stars](https://img.shields.io/github/stars/theahmadov/thanos)](https://github.com/theahmadov/thanos/stargazers)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/theahmadov/thanos)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/theahmadov/thanos)
 
 **Thanos is python based website vulnerability scanner. You can use it to get report of vulnerabilities of any website.
 Also if there is bug or error etc. thanos will report you with large explanation. Try learn to use it correctly. 
@@ -16,7 +16,7 @@ And also dont forget to star and fork project to help Thanos increasing. There i
 #### Option
 ```bash
 sudo apt upgrade
-git clone https://github.com/redc86/thanos
+git clone https://github.com/theahmadov/thanos
 cd thanos
 pip3 install -r requirements.txt
 sudo pip3 install -r requirements.txt
@@ -24,7 +24,7 @@ sudo python3 thanos.py thanos
 ```
 #### Option 2
 ```
-curl  -s https://raw.githubusercontent.com/redc86/thanos/main/install_debian.sh | bash
+curl  -s https://raw.githubusercontent.com/theahmadov/thanos/main/install_debian.sh | bash
 ```
 
 ## Usage
@@ -64,4 +64,4 @@ python3 thanos.py [normal,port]https://pakkan.com.tr
 ![port scan](./assets/port.png)
 
 # Copright
-### (c) Thanos developed and created by redc86.
+### (c) Thanos developed and created by theahmadov.
